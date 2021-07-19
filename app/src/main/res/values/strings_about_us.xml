@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="introduce">
+        Một sản phẩm được thiết kế và hoàn thiện bởi Team Licky. Trải qua 3 năm của cuộc đời sinh viên, những thanh niên có chung chí hướng đã
+        tập hợp lại và chung tay thiết kế cho sản phẩm này.
+    </string>
+    <string name="LongNg">Nguyễn Trần Thành Long - lãnh đạo của nhóm, người tập hợp phân chia công viêc cho các thành viên.</string>
+    <string name="Vu">Nguyễn Anh Vũ - Phụ trách tổng hợp và khảo sát, là người đốc thúc công việc cùng với Long.</string>
+    <string name="Nghia">Nguyễn Trọng Nghĩa - người luôn tạo nên những niềm vui, động lực cho nhóm mỗi khi gặp bế tắc. Đồng thời cũng là người đưa nên các ý tưởng.</string>
+    <string name="Dang">Nguyễn Ngọc Hải Đăng - lãnh đạo tinh thần với những âm thanh hấp hối. Tuy nhiên cậu ấy lại có con mắt thẩm mỹ tinh tường.</string>
+    <string name="All">Sản phẩm là cả 1 quá trình nỗ lực. Các công việc được phân chia đồng đều giữa các thành viên. Mặc dù trong quá trình có xảy ra sự khác biệc về ý tưởng nhưng cuối cùng cũng đưa ra những ý kiến thống nhất.</string>
+</resources>

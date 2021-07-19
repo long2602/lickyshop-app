@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:layout_weight="1"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+
+        android:background="@drawable/login_background"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="3"
+            android:gravity="center|top"
+            android:paddingTop="44dp">
+
+            <EditText
+                android:id="@+id/login_edit_user"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/login_input_username"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Tài khoản"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:paddingTop="14dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="14dp"
+                android:textSize="20sp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/login_edit_pass"
+                android:layout_width="320dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/login_input_username"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Mật khẩu"
+                android:inputType="textPassword"
+                android:textSize="20sp"
+                android:paddingLeft="20dp"
+                android:paddingTop="14dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="14dp"
+                android:layout_marginTop="20dp"
+                >
+
+            </EditText>
+
+            <TextView
+                android:id="@+id/login_txt_Quenmatkhau"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="46dp"
+                android:text="Quên mật khẩu?"
+                android:textColor="@color/black"
+                android:layout_gravity="center|end"
+                android:textSize="16sp">
+
+            </TextView>
+
+            <Button
+                android:id="@+id/login_btn_Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/login_btn_login"
+                android:backgroundTint="@color/black"
+                android:text="ĐĂNG NHẬP"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/black"
+                android:textColorHint="#FFFFFF"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:paddingRight="70dp"
+                android:paddingLeft="70dp"
+                >
+            </Button>
+            <TextView
+                android:id="@+id/txtChuacotaikhoan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="Chưa có tài khoản?"
+                android:textColor="@color/black"
+                android:layout_marginTop="30dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/login_txt_Dangkingay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="ĐĂNG KÍ NGAY"
+                android:textColor="@color/black"
+                android:textSize="26dp"
+                android:textStyle="bold">
+
+            </TextView>
+        </LinearLayout>
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="center|top"-->
+<!--            android:layout_weight="1.2"-->
+<!--            android:paddingTop="10sp">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtChuacotaikhoan"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="16sp"-->
+<!--                android:text="Chưa có tài khoản?"-->
+<!--                android:textColor="@color/black">-->
+
+<!--            </TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/login_txt_Dangkingay"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:text="ĐĂNG KÍ NGAY"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="26dp"-->
+<!--                android:textStyle="bold">-->
+
+<!--            </TextView>-->
+<!--&lt;!&ndash;            <LinearLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_weight="0.2"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:gravity="center">&ndash;&gt;-->
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="0.5sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginLeft="25dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    ></ImageView>&ndash;&gt;-->
+<!--&lt;!&ndash;                <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/txtDangnhapbang"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:text="Hoặc đăng nhập bằng"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textSize="16dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_weight="1.7"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:textAlignment="center">&ndash;&gt;-->
+<!--&lt;!&ndash;                </TextView>&ndash;&gt;-->
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="0dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="0.5dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_weight="1"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginRight="25dp"></ImageView>&ndash;&gt;-->
+<!--&lt;!&ndash;            </LinearLayout>&ndash;&gt;-->
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="0dp"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:gravity="center|top"-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:paddingTop="20sp">-->
+
+<!--            <Button-->
+<!--                android:layout_weight="1"-->
+<!--                android:id="@+id/btnGoogle"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/login_btn_google_shape"-->
+<!--                android:drawableStart="@drawable/login_google_icon"-->
+<!--                android:text="GOOGLE"-->
+<!--                android:textSize="16dp"-->
+<!--                android:paddingLeft="26dp"-->
+<!--                android:paddingRight="26dp"-->
+<!--                android:paddingTop="4dp"-->
+<!--                android:paddingBottom="4dp"-->
+<!--                android:layout_marginLeft="25dp"-->
+<!--                android:layout_marginRight="15dp">-->
+
+<!--            </Button>-->
+
+<!--            <Button-->
+<!--                android:layout_weight="1"-->
+<!--                android:id="@+id/Facebook"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:background="@drawable/login_btn_google_shape"-->
+<!--                android:drawableStart="@drawable/login_facebook_icon"-->
+<!--                android:text="FACEBOOK"-->
+<!--                android:textSize="16dp"-->
+<!--                android:paddingLeft="26dp"-->
+<!--                android:paddingRight="26dp"-->
+<!--                android:paddingTop="4dp"-->
+<!--                android:paddingBottom="4dp"-->
+<!--                android:layout_marginRight="25dp"-->
+<!--                android:layout_marginLeft="15dp"-->
+<!--                >-->
+<!--            </Button>-->
+<!--        </LinearLayout>-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:background="#EDEDED"
+        >
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="56dp"
+            android:background="@drawable/rectangle_2_shape"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/home_btn_home"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shape_white"
+                    android:drawableStart="@drawable/home"
+                    android:paddingStart="41sp"
+                    android:layout_gravity="center"
+                    style="?android:attr/borderlessButtonStyle"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/home_btn_giohang"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_white"
+                    android:drawableStart="@drawable/_cart"
+                    android:paddingStart="41dp"
+                    style="?android:attr/borderlessButtonStyle">
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/home_btn_account"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:drawableStart="@drawable/_account"
+                    android:layout_gravity="center"
+                    android:paddingStart="12dp"
+                    android:text="Tài khoản"
+                    android:background="@drawable/rectangle_7_shape"
+                    style="?android:attr/borderlessButtonStyle"
+                    ></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+

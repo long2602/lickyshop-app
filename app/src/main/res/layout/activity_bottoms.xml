@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.CategoryTopActivity"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/bottom_imgBtn_back"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:src="@drawable/icon_back" />
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7.5">
+            <TextView
+                android:id="@+id/catrgory_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_7_shape"
+                android:layout_gravity="center"
+                android:paddingStart="50dp"
+                android:hint="Tìm kiếm trong TOPS..."
+                android:textSize="14sp"
+                android:padding="10dp"
+                ></TextView>
+            <ImageView
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/search"
+                android:layout_gravity="center|start"
+                android:layout_marginLeft="14dp">
+            </ImageView>
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/bell"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="3dp"
+            android:layout_weight="1"
+            android:contentDescription="bell"
+            android:src="@drawable/bell" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:background="@drawable/login_background"
+        android:orientation="vertical"
+        android:paddingTop="14dp"
+        >
+            <LinearLayout android:id="@+id/content_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/txt_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="BOTTOMS"
+                    android:textColor="@color/black"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="12dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/category_rcView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="26dp"
+                        android:layout_marginEnd="12dp"
+                        android:paddingBottom="12dp"
+                        ></androidx.recyclerview.widget.RecyclerView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:background="#EDEDED"
+        android:gravity="center"
+        >
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="56dp"
+            android:background="@drawable/rectangle_2_shape"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+                <Button
+                    android:id="@+id/home_btn_home"
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/shape_white"
+                    android:drawableStart="@drawable/home"
+                    android:paddingStart="41sp"
+                    android:layout_gravity="center"
+                    style="?android:attr/borderlessButtonStyle"
+                    ></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/home_btn_giohang"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_white"
+                    android:drawableStart="@drawable/_cart"
+                    android:paddingStart="41dp"
+                    style="?android:attr/borderlessButtonStyle">
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:id="@+id/home_btn_account"
+                    android:layout_width="110dp"
+                    android:layout_height="50dp"
+                    android:drawableStart="@drawable/_account"
+                    android:layout_gravity="center"
+                    android:paddingStart="41dp"
+                    android:background="@drawable/shape_white"
+                    style="?android:attr/borderlessButtonStyle"
+                    ></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

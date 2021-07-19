@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RegisterActivity"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+
+        android:background="@color/white"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"></ImageView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:background="@drawable/regis_background"
+        android:gravity="center|top"
+        android:paddingTop="50dp"
+        >
+
+
+        <EditText
+            android:id="@+id/register_edit_UserName"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/regis_input_username_shape"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Tài khoản"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingTop="14dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="14dp"
+            android:textSize="20sp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/register_edit_pass"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/regis_input_username_shape"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Mật khẩu"
+            android:inputType="textPassword"
+            android:paddingLeft="20dp"
+            android:paddingTop="14dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="14dp"
+            android:textSize="20sp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/register_edit_pass2"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/regis_input_username_shape"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Nhập lại mật khẩu"
+            android:inputType="textPassword"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="14dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="14dp"
+            android:textSize="20sp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/register_edit_name"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/regis_input_username_shape"
+            android:backgroundTint="@color/white"
+            android:hint="Họ và tên"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="14dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="14dp"
+            android:textSize="20sp">
+
+        </EditText>
+        <EditText
+            android:id="@+id/register_edit_phone"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/regis_input_username_shape"
+            android:backgroundTint="@color/white"
+            android:hint="Số điện thoại"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingTop="14dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="14dp"
+            android:textSize="20sp">
+
+        </EditText>
+        <Button
+
+            android:id="@+id/register_btn_dangky"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/regis_dangki_btn"
+            android:backgroundTint="@color/black"
+            android:text="ĐĂNG KÍ"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="#FFFFFF"
+            android:layout_gravity="center"
+            >
+        </Button>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="center"
+        android:background="#EDEDED"
+        >
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="56dp"
+            android:background="@drawable/rectangle_2_shape"
+            android:gravity="center"
+            >
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="124dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_white"
+                    android:drawableStart="@drawable/home"
+                    android:paddingStart="41sp"></Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/shape_white"
+                    android:drawableStart="@drawable/_cart"
+                    android:paddingStart="41dp"
+                    style="?android:attr/borderlessButtonStyle">
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                >
+                <Button
+                    android:layout_width="110dp"
+                    android:layout_height="48dp"
+                    android:drawableStart="@drawable/_account"
+                    android:layout_gravity="center"
+                    android:paddingStart="12dp"
+                    android:text="Tài khoản"
+                    android:background="@drawable/rectangle_7_shape"
+                    style="?android:attr/borderlessButtonStyle"
+                    ></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

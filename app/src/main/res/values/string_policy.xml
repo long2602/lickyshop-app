@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="doitra1">1. Chính sách đổi trả hàng bán trực tiếp</string>
+
+    <string name="noidung1"><br>+ Những sản phẩm mua trong 3 ngày vẫn có thể đổi khi bạn cần đổi size hay vấn đề về sản phẩm lỗi từ nhà sản xuất (điều kiện sản phẩm còn bao bì chưa qua sử dụng, còn bill và tag )\n</br><br>+ Khách hàng vui lòng mang sản phẩm kèm hóa đơn đến một trong những cửa hàng Licky Store gần nhất để được hỗ trợ đổi sản phẩm.</br></string>
+
+    <string name="doitra2">2. Không áp dụng đổi trả hàng với những trường hợp sau</string>
+
+    <string name="noidung2"><br>+ Sản phẩm hư hại bởi những tác nhân bên ngoài không phải từ phía sản xuất.\n</br><br>+ Sản phẩm mua trong đợt giảm giá, sản phẩm trong collection đặc biệt.\n</br><br>+ Chỉ áp dụng đổi size không đổi mẫu\n</br><br>+ Sẽ không giải quyết đổi trả với những trường hợp mất hoá đơn hoặc đã quá thời hạn đổi trả.</br>
+    </string>
+    <string name="doitra3">3. Chính sách đổi trả hàng đơn online</string>
+
+    <string name="noidung3"><br>+ Những sản phẩm mua trong 7 ngày (tính từ ngày nhận được hàng) có thể đổi khi bạn cần đổi size hay gặp bất cứ vấn đề về sản phẩm lỗi từ nhà sản xuất (điều kiện sản phẩm còn bao bì chưa qua sử dụng, còn bill và tag ) tại :\n</br><br>https://360.postco.co/lickystore\n</br><br>+ Hoặc đổi trực tiếp tại văn phòng Licky Store trong trường hợp khách hàng nội thành Sài Gòn cần gấp :\n</br><br>Đổi trực tiếp tại địa chỉ 1 Võ Văn Ngâ, Linh Chiểu, Thủ Đức (Inb Facebook / Direct Instagram trước khi đến đổi sản phẩm để nhân viên check và confirm)\n</br><br>+ Khách hàng vui lòng thanh toán chi phí đổi trả hàng nếu hàng không bị lỗi từ nhà sản xuất.</br>
+    </string>
+    <string name="doitra4">4. Không áp dụng đổi trả hàng với những trường hợp sau</string>
+    <string name="noidung4"><br>+ Sản phẩm hư hại bởi những tác nhân bên ngoài không phải từ phía sản xuất.\n</br><br>+ Sản phẩm mua trong đợt giảm giá\n</br><br>+ Sản phẩm được đổi phải còn nguyên tem và kèm hóa đơn mua hàng\n</br><br>Sau khi nhận được sản phẩm, Licky Store sẽ liên hệ với bạn và tiến hành kiểm tra sản phẩm theo quy định đổi sản phẩm (quá trình này mất khoảng từ 2 - 3 ngày).</br>
+    </string>
+
+</resources>
